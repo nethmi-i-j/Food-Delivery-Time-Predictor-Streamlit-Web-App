@@ -10,11 +10,15 @@ Accurate delivery time estimates are critical for customer satisfaction in food 
 
 Dataset : Food_Delivery_Times.CSV from Kaggle.
 
+1000 rows and 9 columns.
+
 Features : 
 
-  * 3 Numerical features - distance, preparation time, courier experience
+  * Numerical features - Order_ID, Distance_KM, Preparation_Time_min , Courier_Experience_yrs
 
-  * 4 Categorical features - weather, traffic level, time of day, vehicle type
+  * Categorical features - Weather, Traffic_Level, Time_of_Day, Vehicle_Type
+
+  * Target : Delivery_Time_min
 
 ## Project Workflow
 
@@ -41,6 +45,19 @@ Built a preprocessing pipelines (imputation for missing values handeling  + scal
 * Tuned Ridge Regression with GridSearchCV (best alpha = 10).
 
 * Final Model (Tuned Ridge) Test Performance : RMSE : 10.535, MAE : 6.844, r2 : 0.769.
+
+## Streamlit Web App
+
+An interactive web app built with Streamlit for real-time delivery time predictions.
+
+Features:
+
+* Input order details (distance, weather, traffic, courier experience, etc.)
+  
+* Instant predicted delivery time
+  
+* Clean, user-friendly interface
+  
 
   
 
