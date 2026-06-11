@@ -32,7 +32,7 @@ Data Loading → EDA → Preprocessing → Model Selection → Hyperparameter Tu
 
 ## Data Preprocessing
 
-Built a preprocessing pipelines (imputation for missing values handeling  + scaling + one-hot encoding) using scikit-learn to prevent data leakage.
+Built a preprocessing pipeline (imputation for missing values handeling  + feature scaling + one-hot encoding) using scikit-learn to prevent data leakage.
 
 ## Model Selection and Optimization
 
