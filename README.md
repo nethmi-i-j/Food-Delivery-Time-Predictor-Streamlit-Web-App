@@ -22,7 +22,7 @@ Features :
 
 ## Project Workflow
 
-Data Loading → EDA → Preprocessing → Model Selection → Hyperparameter Tuning → Final Evaluation → Inference
+Data Loading → EDA → Preprocessing → Model Selection → Hyperparameter Tuning → Final Evaluation → Deploy
 
 ## Exploratory Data Analysis
 
